@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", serif;
+}
+:root{
+  --black:black;
+  --white:white;
+  --golden:rgba(63, 35, 5, 1);
+  --light-golden:rgba(242, 234, 211, 1);
+  --gray:rgba(117, 117, 117, 1);
+  
+}
+.row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.routes{
+  border: 2px solid red;
+}
+.app{
+  overflow: hidden;
+}

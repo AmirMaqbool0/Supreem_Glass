@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black: black;
+  --white: white;
+  --golden: rgba(63, 35, 5, 1);
+  --light-golden: rgba(242, 234, 211, 1);
+  --gray: rgba(117, 117, 117);
+}
+
+.app {
+  overflow: hidden;
+}

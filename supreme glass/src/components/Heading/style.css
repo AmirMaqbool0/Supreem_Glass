@@ -1,0 +1,35 @@
+.heading-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-container span {
+    font-size: 40px;
+    color: var(--gray);
+    font-weight: 500;
+    position: relative;
+    display: inline-block; /* Ensures proper positioning */
+}
+
+.heading-container span::after {
+    content: '';
+    width: 40%; /* Half of the text width */
+    height: 3px;
+    border-radius: 10px;
+    background: var(--golden);
+    position: absolute;
+    top: 5;
+    left: 50%;
+    bottom: -5px; /* Adjust as needed */
+    transform: translateX(-50%); /* Centers the line */
+}
+
+@media screen and (max-width: 531px) {
+    .heading-container span {
+        font-size: 38px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}

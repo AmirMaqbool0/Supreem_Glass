@@ -1,0 +1,316 @@
+.product-detail-page-main-container{
+    height:fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+}
+
+.product-detail-text{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-detail-text span {
+    font-size: 22px;
+    color: var(--golden);
+    font-weight: 550;
+}
+.product-detail-text p {
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.feature-card-main-container{
+    height: 340px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: var(--light-golden);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    
+}
+.image-featurecard{
+    height: 160px;
+    width: 100%;
+    background-color: var(--light-pink);
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-img{
+    height: 70px;
+    width: 70px;
+    background-color: var(--white);
+}
+.feature-img  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.image-feature-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.image-feature-text span {
+    font-size: 18px;
+    font-weight: 550;
+    color: var(--golden);
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--golden);
+}
+.image-feature-text p {
+    color: var(--gray);
+}
+.feature-card-mapp {
+    width: 100%;
+    display: flex;
+    padding-top:30px;
+    align-items: center;
+    gap: 20px;
+}
+.detail-card-main-container {
+    height: 400px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-golden);
+    border-radius: 10px;
+}
+.left-detail-main-container{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+}
+.left-detail-main-container span {
+    font-size: 20px;
+    color: var(--golden);
+    font-weight: 600;
+}
+.left-detail-main-container h1 {
+    font-size: 24px;
+    color: var(--golden);
+    font-weight: 600;
+}
+
+.left-detail-main-container p {
+    font-size: 16px;
+    color: var(--gray);
+}
+.right-detail-main-container{
+    height: 100%;
+    width: 35%;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+.right-detail-main-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.detail-card-map{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+
+}
+.product-detail-page-main {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    /* align-items: center; */
+    gap: 20px;
+}
+.productdetail-heading-main{
+    height: 300px;
+    width: 45%;
+    border: 2px solid var(--golden);
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    
+}
+.productdetail-heading-main span {
+    font-size: 28px;
+    font-weight: 550;
+    color: var(--golden);
+}
+.productdetail-heading-main p{
+    font-size: 14px;
+    color: var(--gray);
+}
+.product-detail{
+    height: fit-content;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid var(--golden);
+    border-radius: 8px;
+    padding: 20px;
+}
+.product-finsih{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.product-finsh-meterial {
+    position: relative; /* Ensures child elements are positioned relative to this */
+}
+
+.product-finsh-meterial span {
+    font-size: 20px;
+    color: var(--golden);
+    font-weight: 550;
+    position: relative; /* Needed for absolute positioning of ::after */
+}
+
+.product-finsh-meterial span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjusts the distance of the line from the text */
+    width: 100%;
+    height: 1px; /* Thickness of the line */
+    background-color: var(--golden); /* Color of the line */
+}
+
+.finsh-box-main{
+    display: flex;
+    padding-left: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.finsh-box{
+    height: 35px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: var(--golden);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-product-main{
+    height: 100px;
+    width: 95px;
+    /* background-color: aqua; */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    overflow: hidden;
+    /* padding: 5px; */
+
+}
+.size-cc{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--golden);
+
+}
+
+.size-cc span {
+    font-size: 16px;
+    color: var(--white);
+}
+.size-in-number{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-golden);
+    
+}
+.size-in-number span {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--golden);
+    
+}
+
+@media screen and (max-width:1247px) {
+    .feature-card-mapp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:947px) {
+    .detail-card-main-container{
+        height: fit-content;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+    .left-detail-main-container{
+        width: 100%;
+    }
+
+    .right-detail-main-container{
+        height: 300px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:893px){
+    .feature-card-main-container{
+        width: 45%;
+    }
+
+    .product-detail-page-main {
+    flex-direction: column;
+    }
+    .product-detail{
+        width: 100%;
+    }
+    .productdetail-heading-main{
+        height: fit-content;
+        width: 100%;
+    }
+}
+@media screen and (max-width:579px){
+    .feature-card-main-container{
+        width: 100%;
+    }
+
+    .product-detail-page-main-container{
+        padding: 30px;
+    }
+}

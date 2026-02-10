@@ -1,0 +1,42 @@
+.quot-container{
+    width: 100%;
+    height: 400px;
+}
+
+.quot-container span{
+    font-size: 40px;
+    color: var(--white);
+    font-weight: 500;
+    height: 400px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:657px) {
+    .quot-container{
+        height: fit-content;
+        /* padding: 50px; */
+    }
+    .quot-container span{
+        font-size: 32px;
+    }
+    
+}
+@media screen and (max-width:412px) {
+    .quot-container span{
+        font-size: 28px;
+    }
+
+}
+@media screen and (max-width:375px) {
+    .quot-container span{
+        font-size: 28px;
+
+        padding: 10px;
+    }
+
+
+}

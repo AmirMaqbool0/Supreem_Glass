@@ -1,0 +1,81 @@
+.categories-conteiner{
+    width: 80%;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categories-content{
+    width: 99%;
+    height: 98%;
+    background: var(--light-golden);
+    border-radius: 20px;
+    border: 1px solid var(--golden);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+}
+.categories-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.categories-header input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--golden);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.categories-header button{
+    width: 120px;
+    height: 40px;
+    background: var(--golden);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: var(--white);
+}
+.categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.categories-card{
+    width: 100%;
+    height: 70px;
+    border: 1px solid var(--golden);
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.categories-card img{
+    width: 150px;
+    height: 100%;
+    object-fit: contain;
+}
+.categories-card span{
+    font-size: 25px;
+    color: var(--golden);
+    font-weight: 400;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
